@@ -1,6 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
+// Разрешаем запросы от любых источников (в том числе file://)
+app.use(cors({ origin: '*' }));
 app.use(express.json());
 
 let songs = [];
@@ -21,7 +24,7 @@ app.get('/api/songs', (req, res) => {
 
 // Проверка
 app.get('/', (req, res) => {
-  res.send('Musical Lotto Server работает!');
+  res.send('🎵 Musical Lotto Server работает с CORS!');
 });
 
 module.exports = app;
