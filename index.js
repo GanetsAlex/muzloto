@@ -593,7 +593,7 @@ app.get('/admin.html', (req, res) => {
         <p style="color: #666; margin-bottom: 30px;">Введите пароль администратора</p>
         <div class="input-group">
             <label for="adminPassword">Пароль администратора</label>
-            <input type="password" id="adminPassword" placeholder="Введите пароль" autocomplete="off" value="muzloto2024">
+            <input type="password" id="adminPassword" placeholder="Введите пароль" autocomplete="off">
         </div>
         <div id="passwordError" class="alert alert-danger" style="display: none;">Неверный пароль</div>
         <button class="btn" onclick="checkPassword()">🔓 Войти</button>
