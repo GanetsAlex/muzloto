@@ -598,7 +598,6 @@ app.get('/admin.html', (req, res) => {
         <div id="passwordError" class="alert alert-danger" style="display: none;">Неверный пароль</div>
         <button class="btn" onclick="checkPassword()">🔓 Войти</button>
         <div style="margin-top: 20px; font-size: 14px; color: #888;">
-            <p>По умолчанию пароль: <code>muzloto2024</code></p>
             <p>Смените пароль в файле <code>index.js</code> на сервере</p>
         </div>
     </div>
