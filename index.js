@@ -1,5 +1,3 @@
-[file name]: index.js
-[file content begin]
 const express = require('express');
 const cors = require('cors');
 const app = express();
@@ -323,4 +321,3 @@ app.get('/', (req, res) => {
 });
 
 module.exports = app;
-[file content end]
