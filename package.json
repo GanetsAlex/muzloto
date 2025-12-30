@@ -1,5 +1,3 @@
-[file name]: package.json
-[file content begin]
 {
   "name": "muzloto-server",
   "version": "1.0.0",
@@ -19,4 +17,3 @@
     "node": ">=14.0.0"
   }
 }
-[file content end]
